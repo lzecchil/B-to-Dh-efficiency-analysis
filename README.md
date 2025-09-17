@@ -15,4 +15,5 @@ You need to write the sequence of final states for your decay in the same order 
 Then you need to change id3 to the absolute value of the pdg Id of the B-daughter final state, and you need to put in id1 and id2 the pdg Id of the two D daughters.
 For decays where D decays in two equal particles, you need to put only one value in id1 and one value in id2, with the correct sign.
 For decays where D decays in K pi, you need yo put the positive and negative value of the pdgId of the daughter in both id1 and id2.
+Set t to True if you want to cut the events without a muon with pt>9 and abs(eta)<2.4
 
